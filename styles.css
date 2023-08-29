@@ -76,6 +76,12 @@ img.small-icon{
     justify-content: space-between;
     gap: 15px;
 }
+
+input {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .profile-top, .header-buttons {
     display: flex;
     flex-direction: row;
@@ -128,6 +134,10 @@ img.small-icon{
     background-color: #facc15;
     border-radius: 10px;
     min-height: 120px;
+}
+
+.box-it:hover {
+    transform: scale(1.1);
 }
 
 .box-right {
